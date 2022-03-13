@@ -85,7 +85,29 @@ label:focus,
 .col-gap {
     column-gap: 20px;
 }
-
+.fs-big {
+    font-size: 72px;
+    font-weight: 900;
+}
+.fs-md {
+    font-size: 28px;
+    font-weight: 700;
+}
+#find-us {
+    background-image: url(/images/blur.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.find-content {
+    height: 320px;
+}
+.countdown-time {
+    column-gap: 10px;
+}
+.time-box h3 {
+    font-size: 34px;
+    font-weight: 700;
+}
 #our-packages .section-title {
     margin-bottom: 150px;
 }

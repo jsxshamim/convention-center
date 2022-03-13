@@ -29,6 +29,9 @@ label:focus,
     padding: 10px 45px;
     font-weight: 700;
 }
+.btn-primary-custom:hover {
+    background-color: #ffffffd0;
+}
 .main-title {
     font-size: 48px;
     font-weight: 700;
@@ -68,7 +71,7 @@ label:focus,
 .hot-card .pricing-description .list-icon {
     color: white
 }
-.card-group .hot-card.card {
+.hot-card {
     border-radius: 30px;
     top: -76px;
     padding: 30px 20px;
@@ -93,6 +96,10 @@ label:focus,
 #faq .border-theme {
     border: 1px solid #D5E5FB;
 }
+.store-icon {
+    width: 100%;
+    max-width: 130px;
+}
 /* slider style  */
 .carousel-indicators .indicator {
     width: 68px;
@@ -102,4 +109,29 @@ label:focus,
 .control-prev .carousel-control-prev-icon, .control-next .carousel-control-next-icon{
     width: 4rem;
     height: 4rem;
+}
+
+@media only screen and (max-width:768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+    .carousel-caption {
+        width: 75% !important;
+        bottom: 4.25rem;
+    }
+    .mb-100 {
+        margin-bottom: .6em;
+    }
+    .mt-100{
+        margin-top: 3em;
+    }
+    
+    #our-packages .section-title {
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (min-width:992px) {
+    .slider-image {
+        width: 100%;
+    }
 }

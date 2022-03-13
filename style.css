@@ -1,0 +1,52 @@
+/* import Poppins & Roboto Font Families */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Reset Code */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+/* custom css */
+.btn-primary-custom {
+    background-color: #FFFFFF;
+    padding: 10px 45px;
+    font-weight: 700;
+}
+.main-title {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.section-title {
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* slider style  */
+.carousel-indicators .indicator {
+    width: 68px;
+    height: 5px;
+    background-color: #feebe2;
+}
+.control-prev .carousel-control-prev-icon, .control-next .carousel-control-next-icon{
+    width: 4rem;
+    height: 4rem;
+}

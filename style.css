@@ -33,13 +33,66 @@ label:focus,
     font-size: 48px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .section-title {
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.price{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #231D4F;
+}
+.price-title {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #231D4F;
+}
+.pricing-text, .pricing-description {
+    color: #848199;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.pricing-description .list-icon {
+    margin-right: 10px;
+    color: #231D4F;
+}
+.hot-card .pricing-description .list-icon {
+    color: white
+}
+.card-group .hot-card.card {
+    border-radius: 30px;
+    top: -76px;
+    padding: 30px 20px;
+}
+.hot-card .badge {
+    background-color: #FF4E4E;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 10px;
+}
+.col-gap {
+    column-gap: 20px;
 }
 
+#our-packages .section-title {
+    margin-bottom: 150px;
+}
 
+.client {
+    padding: 15px 20px;
+}
+#faq .border-theme {
+    border: 1px solid #D5E5FB;
+}
 /* slider style  */
 .carousel-indicators .indicator {
     width: 68px;
